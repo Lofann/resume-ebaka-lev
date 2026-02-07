@@ -1,0 +1,35 @@
+resume-ai/
+│
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── schemas.py
+│
+│   ├── db/
+│   │   ├── base.py
+│   │   ├── session.py
+│   │   ├── models.py
+│
+│   ├── llm/
+│   │   ├── client.py
+│   │   ├── vacancy.py
+│   │   ├── prompts.py
+│   │   ├── improve.py
+│
+│   ├── services/
+│   │   ├── resume_service.py
+│   │   ├── pdf_service.py
+│
+│   ├── templates/
+│   │   └── resume.html
+│
+├── alembic/
+│   ├── versions/
+│   ├── env.py
+│   └── script.py.mako
+│
+├── alembic.ini
+├── Dockerfile
+├── docker-compose.yml
+├── requirements.txt
+└── README.md
